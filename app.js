@@ -1,5 +1,6 @@
 var express = require('express');
 var http = require('http');
+var ipsumomat = require('./ipsumomat');
 
 //init?
 var app = express();
@@ -20,7 +21,8 @@ app.configure(function() {
 
 
 app.get('/', function(req, res) {
-    res.render('index', {});
+    var content = ipsumomat().omat();
+    res.render('index', {ipsum: content});
 });
 
 
