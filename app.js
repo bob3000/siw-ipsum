@@ -22,7 +22,9 @@ app.configure(function() {
 
 app.get('/', function(req, res) {
     var content = ipsumomat().omat();
-    res.render('index', {ipsum: content});
+    res.render('index', {
+        ipsum: content
+    });
 });
 
 
