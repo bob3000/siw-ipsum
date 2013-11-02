@@ -1,8 +1,8 @@
-var start = ['Schwarzer'];
+var start = ['Schwarzer', 'Junge'];
 
-var center = ['schöner', 'heißer Kaffee', 'äh', 'richtig dunkelschwarzer', 'heißer Kaffee', 'JA', 'JUNGE', 'ALDE', 'DAS IS KAFFEE', 'SCHWARZ', 'STARK', 'ECHT JETZT.', 'SCHWARZER', 'JETZT ECHT', 'SCHWARZER KAFFEE', 'WA', 'DER  SCHMECKT RICHTIG', 'SCHÖNER', 'SCHWARZER HEISSER SCHÖNER KAFFEE', 'SCHEISSE! SCHWARZER', 'JUNGE! SCHWARZER', 'HEISSER KAFFEE'];
+var center = ['schöner', 'heißer Kaffee', 'äh', 'richtig dunkelschwarzer', 'heißer Kaffee', 'JA', 'junge', 'alde', 'das is Kaffee', 'schwarz', 'stark', 'schwarzer', 'jetzt echt', 'schwarzer Kaffee', 'wa', 'der schmeckt richtig', 'schöner', 'schwarzer heisser schöner Kaffee', 'JUNGE! Schwarzer', 'HEISSER KAFFEE'];
 
-var end = ['hm?', 'ECHT JETZT.', 'UND KAFFEE IS NUN MA LECKER.', 'UND VOR ALLEM: SCHÖN LECKER.', 'SCHWARZ UND SCHÖN LECKER.', 'JUNGE.', , 'RICHTIG LECKER SCHMECKT DER.', 'RICHTIG DUNKEL SCHWARZER HEISSER KAFFEE!'];
+var end = ['hm?', 'echt jetzt.', 'uns kaffee is nun ma lecker.', 'und vor allem: SCHÖN LECKER.', 'schwarz und schön lecker.', 'richtig lecker schmeckt der.', 'richtig dunkel schwarzer heisser Kaffe!'];
 
 var dict = {};
 dict.start = start;
