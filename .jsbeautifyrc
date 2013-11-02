@@ -14,5 +14,5 @@
     "unescape_strings": false,
     "wrap_line_length": 80,
 
-    "format_on_save": false
+    "format_on_save": true
 }
