@@ -28,5 +28,5 @@ app.get('/', function(req, res) {
 });
 
 
-server.listen(process.env.VCAP_APP_PORT || 3000);
-console.log('Listening on port 3000');
+server.listen(process.env.VCAP_APP_PORT || 3005);
+console.log('Listening on port 3005');
